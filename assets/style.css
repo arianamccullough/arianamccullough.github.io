@@ -1,0 +1,90 @@
+.edge-text {
+    text-shadow: 1px 1px #000000;
+        color: rgb(251, 252, 217);
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  justify-content:  space-around;
+}
+.home {
+  display: flex;
+  justify-content: flex-start;
+}
+.page {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+.bg-img { 
+  background-image: url(/assets/woodplanks.png);
+  background-size: cover;
+  background-repeat: initial;
+}
+.main-col {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.forest-green {
+  background-color: rgb(18, 61, 31);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.bg-greenish {
+  background-color: rgb(33, 107, 55);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+a:link {
+        color: rgb(251, 252, 217);
+    background-color: transparent; 
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:visited {
+        color:  rgb(95, 12, 12);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  rgb(95, 12, 12);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color:  rgb(209, 77, 77);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  max-width: 30%;
+  border: 10px double black;
+  background-color: rgb(251, 252, 217);
+  margin: 50px 0px 50px 0px;
+
+   
+}
+
+.main-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.main-btn {
+  border: 2px dashed  rgb(51, 8, 8);
+  font-weight: bold;
+      background-color: rgb(95, 12, 12);
+      margin-bottom: 20px;
+      margin-top: 10px;
+}
+.p {
+  font-size: 1rem;
+}
